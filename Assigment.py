@@ -76,7 +76,7 @@ print(food)
 mi_tupla = (15, 16, 17, 18)
 
 #agregamos un elemento para crerar una nueva tupla
-mi_tupla = mi_tupla + (19,)
+mi_tupla += (19,)
 
 #obtenemos la nueva tupla
 print(mi_tupla)
