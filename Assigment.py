@@ -72,5 +72,13 @@ print(food)
 
 #esta es una resignacion para agregar un elemento a la tupla:
 
-new_element_tupla = mi_tupla + (2025,)
-print(new_element_tupla)
+#tupla inicial
+mi_tupla = (15, 16, 17, 18)
+
+#agregamos un elemento para crerar una nueva tupla
+mi_tupla = mi_tupla + (19,)
+
+#obtenemos la nueva tupla
+print(mi_tupla)
+
+
